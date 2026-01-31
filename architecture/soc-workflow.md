@@ -1,0 +1,35 @@
+
+# SOC-WORKFLOW (SSH brute force detection)
+
+
+ Attacker (Hydra)
+        |
+        v
+ SSH Brute Force Attempts
+ (Port 22)
+        |
+        v
+ Linux Endpoint (SSHD)
+        |
+        v
+ Authentication Failure Logs
+ (/var/log/auth.log)
+        |
+        v
+   Wazuh Agent
+        |
+        v
+ Wazuh Manager (SIEM)
+        |
+        v
+ Rule Matching & Correlation
+        |
+        v
+ 🚨 High-Severity Alert
+        |
+        v
+ MITRE ATT&CK Mapping
+ (T1110 – Brute Force)
+        |
+        v
+ SOC Analyst Investigation
