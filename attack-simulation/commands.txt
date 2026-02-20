@@ -1,1 +1,0 @@
-hydra -l root -P passwords.txt ssh://<TARGET_IP>
