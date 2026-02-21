@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="C:\Users\HP\OneDrive\Desktop\github_image\splunk.jpeg" />
+  <img src="https://res.cloudinary.com/dfw87bbyp/image/upload/v1771645707/splunk_j6887e.jpg" />
 </p>
 
 <h1 align="center">🔐 SMB Credential Stuffing Detection Lab</h1>
