@@ -1,16 +1,7 @@
-<p align="center">
-  <img src="https://res.cloudinary.com/dfw87bbyp/image/upload/v1771645707/splunk_j6887e.jpg" />
-</p>
 
-<h1 align="center">🔐 SMB Credential Stuffing Detection Lab</h1>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/SIEM-Splunk-green?style=for-the-badge&logo=splunk" />
-  <img src="https://img.shields.io/badge/Attack-SMB%20Credential%20Stuffing-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows" />
-  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/License-Apache%202.0-lightgrey?style=for-the-badge" />
-</p>
+
+
 
 ---
 
