@@ -1,8 +1,20 @@
-# 🛡️ SMB Credential Stuffing Detection Lab (Splunk SOC Project)
+<p align="center">
+  <img src="https://res.cloudinary.com/dfw87bbyp/image/upload/v1771645707/splunk_j6887e.jpg" />
+</p>
+
+<h1 align="center">🔐 SMB Credential Stuffing Detection Lab (Splunk SOC Practise)</h1> 
+
+<p align="center">
+  <img src="https://img.shields.io/badge/SIEM-Splunk-green?style=for-the-badge&logo=splunk" />
+  <img src="https://img.shields.io/badge/Attack-SMB%20Credential%20Stuffing-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows" />
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-Apache%202.0-lightgrey?style=for-the-badge" />
+</p>
 
 ---
 
-# 📌 Project Overview
+# 📌 lab Overview
 
 This lab simulates a real-world **SMB credential stuffing attack** and demonstrates how a SOC analyst can detect it using **Splunk SIEM**.
 
@@ -221,10 +233,7 @@ Additional enumeration commands:
 
 ```
 crackmapexec smb 192.168.56.20 -u john -p Welcome@123 --shares --local-auth
-crackmapexec smb 192.168.56.20 -u john -p Welcome@123 --admin --local-auth
-crackmapexec smb 192.168.56.20 -u john -p Welcome@123 --sessions --local-auth
-crackmapexec smb 192.168.56.20 -u john -p Welcome@123 --users --local-auth
-crackmapexec smb 192.168.56.20 -u john -p Welcome@123 --groups --local-auth
+ 
 ```
 
 ---
