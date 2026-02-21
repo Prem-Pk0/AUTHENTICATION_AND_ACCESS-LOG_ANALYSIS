@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://res.cloudinary.com/dfw87bbyp/image/upload/v1771656054/WAZUH_xnmvbk.jpg" />
+  <img src="hhttps://res.cloudinary.com/dfw87bbyp/image/upload/v1771656054/WAZUH_xnmvbk.jpg" />
 </p>
 
 <h1 align="center">🔐 SSH Brute Force Detection Lab (Wazuh SOC Practice)</h1>
@@ -18,8 +18,18 @@
 
 This lab simulates a real-world **SSH brute force attack** and demonstrates how a SOC analyst can detect and investigate it using **Wazuh SIEM**.
 
-> ⚠️ Authorized Lab Use Only  
-> Perform this lab only in an isolated environment you own/control (exam prep, blue-team practice, detection testing). Do NOT test on real systems.
+The Lab includes:
+
+- Linux victim machine (VM2)
+- Kali Linux attacker machine (VM1)
+- Wazuh Manager + Agent (VM3)
+- SSH service configuration
+- Weak credential simulation
+- Brute force attack execution (Hydra)
+- Log analysis from `/var/log/auth.log`
+- Wazuh alert monitoring
+- SOC investigation workflow
+- MITRE ATT&CK mapping
 
 ---
 
@@ -239,11 +249,11 @@ Dashboard → Security Events → Filter by SSH
 
 Investigation Checklist:
 
-- Same Source IP?  
-- Multiple failures in short window?  
-- Successful login afterward?  
-- Username targeted?  
-- Time correlation confirmed?  
+- Same Source IP  
+- Multiple failures in short window  
+- Successful login afterward  
+- Username targeted  
+- Time correlation confirmed  
 
 ---
 
@@ -268,44 +278,13 @@ Framework: MITRE ATT&CK
 
 ---
 
-# 🛡️ PHASE 5 — Post-Lab Hardening
-
-Edit SSH configuration:
-
-```
-sudo nano /etc/ssh/sshd_config
-```
-
-Modify:
-
-```
-PasswordAuthentication no
-PermitRootLogin no
-MaxAuthTries 3
-```
-
-Restart SSH:
-
-```
-sudo systemctl restart ssh
-```
-
-Recommended Security Enhancements:
-
-- Implement SSH key-based authentication  
-- Configure Fail2ban  
-- Restrict SSH via firewall  
-- Disable unused accounts  
-
----
-
+ 
 # 🎯 Final Outcome
 
 ✔ Simulated real-world SSH brute force attack  
 ✔ Observed authentication logs on Linux  
 ✔ Detected attack using Wazuh SIEM  
-✔ Investigated compromise pattern  
-✔ Applied post-incident hardening  
+✔ Investigated compromise pattern   
 ✔ Mapped attack to MITRE ATT&CK  
 
 ---
@@ -320,6 +299,4 @@ Recommended Security Enhancements:
 
 ---
 
-## ✅ Lab Completed
-
-Ready for next attack simulation.
+ 

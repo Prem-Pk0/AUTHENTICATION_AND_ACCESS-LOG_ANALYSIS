@@ -18,7 +18,7 @@
 
 This lab simulates a real-world **SMB credential stuffing attack** and demonstrates how a SOC analyst can detect it using **Splunk SIEM**.
 
-The project includes:
+The Lab includes:
 
 - Windows victim machine (VM2)
 - Kali Linux attacker machine (VM1)
