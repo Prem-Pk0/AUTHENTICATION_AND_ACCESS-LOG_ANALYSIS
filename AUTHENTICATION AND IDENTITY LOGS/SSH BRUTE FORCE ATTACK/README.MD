@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="hhttps://res.cloudinary.com/dfw87bbyp/image/upload/v1771656054/WAZUH_xnmvbk.jpg" />
+  <img src="https://res.cloudinary.com/dfw87bbyp/image/upload/v1771656054/WAZUH_xnmvbk.jpg" />
 </p>
 
 <h1 align="center">🔐 SSH Brute Force Detection Lab (Wazuh SOC Practice)</h1>
